@@ -187,3 +187,28 @@ textarea {
   overflow: hidden;
   overflow-y: auto;
 }
+
+@media only screen and (max-width: 624px) {
+  .homePage {
+    width: 700px;
+  }
+  .post .postHeader {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+  }
+  .post {
+    width: 50px;
+  }
+  .postHeader {
+    width: 50px;
+  }
+  .post .postTextContainer {
+    word-wrap: break-word;
+    height: 100%;
+    max-height: 200px;
+    width: 80px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+}
